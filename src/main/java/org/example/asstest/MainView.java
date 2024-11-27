@@ -55,7 +55,7 @@ public class MainView {
         barChartButton.setOnAction(e -> {
             BarChart<String, Number> barChart = new BarChart<>(new CategoryAxis(), new NumberAxis());
             barChart.setTitle("Employee Attendance");
-            barChart.setLegendVisible(false);
+            barChart.setLegendVisible(true);
 
             XYChart.Series<String, Number> series = new XYChart.Series<>();
             series.setName("Attendance");
