@@ -37,6 +37,7 @@ public class PayrollView {
         Button generateEmployeeReportButton = createButton("Generate Employee Report", "#2196F3");
         Button generateDepartmentReportButton = createButton("Generate Department Report", "#2196F3");
 
+
         employeeListView.setPrefHeight(200);
         updateEmployeeList();
 
